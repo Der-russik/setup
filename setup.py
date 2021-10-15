@@ -9,9 +9,9 @@ print("Ur os is:\n "+platform)
 
 
 if platform == "linux":
-    os.system('wget https://the-web.site/file')
+    os.system('wget https://ur-web.site/file')
 elif platform == "win32":
-    webbrowser.open('https://the-web.site/file.exe')
+    webbrowser.open('https://ur-web.site/file.exe')
     time.sleep(3)
 
 print("Please safe the File in the Desktop if u have a gui")
